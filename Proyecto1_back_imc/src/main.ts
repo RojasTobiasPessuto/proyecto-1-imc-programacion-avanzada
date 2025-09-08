@@ -7,7 +7,7 @@ async function bootstrap() {
 
   // Habilitar CORS para tu front en Vercel
   app.enableCors({
-    origin: ['https://TU-FRONT.vercel.app'], // ← poné tu dominio real
+    origin: ['https://proyecto-1-imc-programacion-avanzad.vercel.app/'], // ← poné tu dominio real
     methods: ['GET','POST','PUT','PATCH','DELETE','OPTIONS'],
     credentials: true,
   });
